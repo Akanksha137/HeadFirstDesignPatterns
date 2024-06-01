@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsHeadFirst", "DesignPatternsHeadFirst\DesignPatternsHeadFirst.csproj", "{C95859B5-7113-4E8C-A4E2-ABB3706D97D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter1", "chapter1\chapter1.csproj", "{9E2F579F-0C67-4A44-B737-28BDDB5F8076}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter1_Strategy", "chapter1\chapter1_Strategy.csproj", "{9E2F579F-0C67-4A44-B737-28BDDB5F8076}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter1_Puzzle", "chapter1_Puzzle\chapter1_Puzzle.csproj", "{9DA4B648-528D-49F9-956E-C3E13A38F980}"
 EndProject
