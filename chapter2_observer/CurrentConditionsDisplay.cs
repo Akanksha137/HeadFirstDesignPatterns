@@ -12,10 +12,8 @@ namespace chapter2_observer
         private float humidity;
        // private float pressure;
         private Subject weatherData;
-        public CurrentConditionsDisplay(float temperature, float humidity, Subject weatherData)
-        {
-            this.temperature = temperature;
-            this.humidity = humidity;
+        public CurrentConditionsDisplay(Subject weatherData)
+        {            
             this.weatherData = weatherData;
             weatherData.registerObserver(this);
         }

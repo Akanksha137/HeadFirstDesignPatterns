@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace chapter2_observer
 {
-    public class WeatherData
+    public class WeatherData:Subject
     {
         private ArrayList observers;
         private float temperature;
@@ -33,7 +33,7 @@ namespace chapter2_observer
             }
         }
 
-        public void notifyObservers()
+        public void notifyObserver()
         {
             for(int i = 0; i < observers.Count; i++)
             {
@@ -44,7 +44,7 @@ namespace chapter2_observer
 
         public void measurementsChanged()
         {
-            notifyObservers();
+            notifyObserver();
         }
 
         public void setMeasurements(float temperature, float humidity,float pressure)
